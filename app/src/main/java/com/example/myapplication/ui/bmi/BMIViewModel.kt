@@ -1,19 +1,17 @@
-package com.example.myapplication.ui.bmi;
+package com.example.myapplication.ui.bmi
 
-import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
-import androidx.lifecycle.ViewModel;
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 
-public class BMIViewModel extends ViewModel {
+class BMIViewModel : ViewModel() {
+    private val mText: MutableLiveData<String>
 
-    private final MutableLiveData<String> mText;
-
-    public BMIViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is bmi fragment");
+    init {
+        mText = MutableLiveData()
+        mText.value = "This is bmi fragment"
     }
 
-    public LiveData<String> getText() {
-        return mText;
-    }
+    val text: LiveData<String>
+        get() = mText
 }

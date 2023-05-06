@@ -1,19 +1,17 @@
-package com.example.myapplication.ui.calories;
+package com.example.myapplication.ui.calories
 
-import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
-import androidx.lifecycle.ViewModel;
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 
-public class CaloriesViewModel extends ViewModel {
+class CaloriesViewModel : ViewModel() {
+    private val mText: MutableLiveData<String>
 
-    private final MutableLiveData<String> mText;
-
-    public CaloriesViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is calories fragment");
+    init {
+        mText = MutableLiveData()
+        mText.value = "This is calories fragment"
     }
 
-    public LiveData<String> getText() {
-        return mText;
-    }
+    val text: LiveData<String>
+        get() = mText
 }

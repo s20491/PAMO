@@ -1,7 +1,5 @@
-package com.example.myapplication.ui.chart;
+package com.example.myapplication.ui.chart
 
-import androidx.lifecycle.ViewModel;
+import androidx.lifecycle.ViewModel
 
-public class ChartViewModel extends ViewModel {
-
-}
+class ChartViewModel : ViewModel()

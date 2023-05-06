@@ -1,18 +1,17 @@
-package com.example.myapplication.ui.recipe;
+package com.example.myapplication.ui.recipe
 
-import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
-import androidx.lifecycle.ViewModel;
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 
-public class RecipeViewModel extends ViewModel {
-    private final MutableLiveData<String> mText;
+class RecipeViewModel : ViewModel() {
+    private val mText: MutableLiveData<String>
 
-    public RecipeViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is recipe fragment");
+    init {
+        mText = MutableLiveData()
+        mText.value = "This is recipe fragment"
     }
 
-    public LiveData<String> getText() {
-        return mText;
-    }
+    val text: LiveData<String>
+        get() = mText
 }
