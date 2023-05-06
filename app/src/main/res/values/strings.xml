@@ -4,6 +4,8 @@
     <string name="title_BMI">BMI</string>
     <string name="title_calories">BMR</string>
     <string name="title_recipe">Recipe</string>
+    <string name="title_quiz">Quiz</string>
+    <string name="title_chart">Chart</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="calculate">Calculate</string>
     <string name="height_in_cm">cm</string>
@@ -32,4 +34,21 @@ Zmniejszyć obroty miksera do średnich, dodać zmielony ser i połączyć. Tera
 Przygotować tortownicę o średnicy minimum 26 cm (mierzona od środka). Posmarować ją masłem i wysypać bułką tartą lub mielonymi migdałami lub dno wyłożyć papierem do pieczenia.
 Masę serową wyłożyć do tortownicy i wstawić do piekarnika nagrzanego do 170 stopni C. Piec przez 60 minut. Sernik studzić stopniowo wyjmując z piekarnika (najpierw po trochu otwierając drzwiczki i lekko wysuwając sernik, w końcu wyjąć z piekarnika). Zrumieniony wierzch sernika posypać cukrem pudrem lub polać polewą czekoladową.
     </string>
+    <string name="quiz">Quiz</string>
+    <string name="see_stats_here">See stats here</string>
+    <string name="true_button">TRUE</string>
+    <string name="false_button">FALSE</string>
+    <string name="question_text">Question Text</string>
+    <string name="correct_text">Correct!</string>
+    <string name="incorrect_text">InCorrect!</string>
+    <string name="first_score_text">Correct!</string>
+    <string name="correct_toast_message">Correct!</string>
+    <string name="incorrect_toast_message">InCorrect!</string>
+    <string name="q1">Is consuming a high amount of processed foods bad for your health?</string>
+    <string name="q2">Should you limit your intake of saturated fats for a healthy diet?</string>
+    <string name="q3">Is it important to get enough sleep for good health?</string>
+    <string name="q4">Should you eat a variety of fruits and vegetables for a healthy diet?</string>
+    <string name="q5">Is smoking harmful to your health?</string>
+    <string name="q6">Is it important to stay hydrated for good health?</string>
+
 </resources>

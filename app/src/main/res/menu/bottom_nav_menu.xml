@@ -2,11 +2,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
-
-    <item
         android:id="@+id/navigation_BMI"
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="@string/title_BMI" />
@@ -20,5 +15,14 @@
         android:id="@+id/recipeFragment"
         android:icon="@drawable/ic_notifications_black_24dp"
         android:title="@string/title_recipe" />
+
+    <item
+        android:id="@+id/nav_chart"
+        android:icon="@drawable/chart_image"
+        android:title="@string/title_chart" />
+    <item
+        android:id="@+id/nav_quiz"
+        android:icon="@drawable/quiz_image"
+        android:title="@string/title_quiz" />
 
 </menu>
